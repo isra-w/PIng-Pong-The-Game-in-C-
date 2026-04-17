@@ -22,7 +22,7 @@ jobs:
         run: dotnet restore PIng-Pong-The-Game-in-C-.sln
 
       - name: Build
-        run: dotnet build PIng-Pong-The-Game-in-C-.sln --no-restore --verbosity diag
+        run: Pong.sln --no-restore --verbosity diag
 
       - name: Test
         run: dotnet test PIng-Pong-The-Game-in-C-.sln --no-build --verbosity normal
