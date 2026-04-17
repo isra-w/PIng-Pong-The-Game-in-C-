@@ -19,7 +19,7 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore PIng-Pong-The-Game-in-C-.sln
+        run: pong.sln
 
       - name: Build
         run: Pong.sln --no-restore --verbosity diag
