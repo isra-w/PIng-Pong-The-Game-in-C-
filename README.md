@@ -1,2 +1,1 @@
-# PIng Pong The Game in C#
-
+# PIng Pong  Game made using C#
